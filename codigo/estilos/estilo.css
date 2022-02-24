@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    border: 1px solid red;
+    height: 150px;
+    background: black;
+}
+
+#logo {
+    padding: 10px;
+    margin-top: 33px;
+    margin-right: 150px;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu ul li a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(189, 125, 8);
+}
+
+#menu ul li a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+#conteudo {
+    display: flex;
+    border: 1px solid green;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+#museu {
+    margin-right: 20px;
+}
+
+h3 {
+    font-size: 0.8em;
+    color: green;
+    margin-bottom: 5px;
+}
+
+#segundo {
+    margin-top: 15px;
+}
+
+#video {
+    margin: 20px;
+}
+
+#video ul {
+    list-style: none;
+}
+
+#video ul li a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(189, 125, 8);
+}
+
+#video ul li a:hover{
+    color: green;
+    text-decoration: underline;
+}
