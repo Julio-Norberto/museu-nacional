@@ -65,6 +65,12 @@ h3 {
 
 #video {
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#video #video-div {
+    margin-right: 40px;
 }
 
 #video ul {
@@ -80,4 +86,25 @@ h3 {
 #video ul li a:hover{
     color: green;
     text-decoration: underline;
+}
+
+p {
+    width: 300px;
+    font-size: 0.8em;
+}
+
+#mapah3 {
+    margin-top: 10px;
+}
+
+#linkh3 {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: rgb(189, 125, 8);
+}
+
+#reserva {
+    border: 1px solid blue;
+    height: 100px;
+    background: rgb(232, 212, 170);
 }
